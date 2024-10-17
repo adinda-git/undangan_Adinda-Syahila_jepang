@@ -1,0 +1,708 @@
+html{
+    scroll-behavior:smooth;
+}
+* {
+    
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+#cover {
+    background: url("img/bg4.png");
+            display: block;
+            position: fixed;
+            height: 130vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+}
+
+#cover-text{
+    text-align: center;
+    margin: 100px;
+    font-size: 20px;
+    margin-top: 200px;
+}
+
+
+#cover button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top:40px;
+  
+   
+}
+
+
+#quotes {
+    height: 120vh;
+    background: url("img/bg3.png") no-repeat center center/cover;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    overflow:hidden;
+    
+}
+
+#quotes blockquote {
+    font-style: italic;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+
+
+
+#profil-pengantin {
+    height: 170vh;
+    background: url("img/bg4.png") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    
+}
+
+#profil-pengantin img {
+    max-width: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background:none;
+}
+
+#profil-pengantin h1{
+    text-align: center;
+   margin-right:40px;
+    font-size: 25px;
+}
+
+#profil-pengantin p{
+    text-align: center;
+    margin-right:40px;
+     font-size: 25px;
+}
+
+#profil-pengantin a{
+    text-align: center;
+    margin-right:50px;
+     font-size: 25px;
+}
+
+
+
+
+#tanggal-lokasi {
+    height: 100vh;
+    background: url("img/bg6.png") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+.Tanggal-text {
+    text-align: center;
+    margin-bottom:300px;
+    background:none;
+    position:absolute;
+}
+
+.Tanggal-text h1{
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+#tanggal-lokasi h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#tanggal-lokasi p {
+    margin: 5px 0;
+}
+
+.event-details-1{
+    margin-bottom:20px;
+    display:block;
+    padding:50px;
+}
+
+.event-details{
+    margin-bottom:20px;
+    display:block;
+    padding:50px;
+}
+
+
+
+
+#gallery{
+    height: 220vh;
+    background: url("img/bg7.png") no-repeat center center/cover;
+   color: black;
+}
+
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.gallery-item img {
+    width: 200px;
+    margin: 10px;
+    
+}
+ 
+.gallery-item h1{
+    text-align: center;
+    margin-right:25px;
+     font-size: 25px; 
+}
+
+.gallery-item p{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+.gallery-item video{
+    width: 200px;
+    margin: 10px;
+}
+
+#tamu-khusus{
+    height: 100vh;
+    background: url("img/bg3.png") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+.tamu-text{
+    text-align: center;
+    margin-bottom:400px;
+    background:none;
+    position:absolute; 
+    
+}
+
+
+ 
+.pengantin{
+    background-color:transparent;
+    background:none;
+    justify-content: center;
+    margin-left:70px;
+    align-items:center;
+    
+}
+
+#Bingkai-akad{
+    width:100px;
+    margin:100px;
+  margin-top:30px;
+ 
+  margin-right:400px;
+}
+
+#Bingkai-resepsi{
+    width:100px;
+    margin:100px;
+  margin-top:30px;
+  margin-right:400px;
+  
+}
+ #rsvp{
+    height: 100vh;
+    background: url("img/bg2.png") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+ }
+
+ 
+
+ #story{
+    height: 100vh;
+    background: url("img/bg4.png") no-repeat center center/cover;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    
+    
+ }
+
+ #kirim-hadiah{
+    height: 100vh;
+    background: url("img/bg6.png") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+ }
+
+ #pesan-pengantin{
+    height: 100vh;
+    background: url("img/bg5.png") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+ }
+
+ #ucapan-terimakasih{
+    height: 100vh;
+    background: url("img/bg7.png") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+  
+ }
+
+ #ucapan-terimakasih{
+    font-size:40px;
+ }
+
+
+ .container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 70%;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.confirm-button {
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.confirm-button:hover {
+    background-color: #2E8B57;
+}
+
+.form-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-header h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="tel"],
+.input-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3CB371;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #2E8B57;
+}
+
+.invitation-text {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Tombol */
+.btn {
+    background-color: #5A3E91;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  
+.gift-section {
+    background-color: #343434; 
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    color: white; 
+    width: 400px; 
+    margin: 20px auto; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+.gift-section h2 {
+    font-family: 'Cursive', sans-serif; 
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.gift-section p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+.send-gift {
+    background-color: #5f3d9a; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.send-gift:hover {
+    background-color: #4b2e7d; 
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.copy-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copy-button:hover {
+    background-color: #0056b3;
+}
+
+
+.gift-form {
+ 
+    margin-top: 20px;
+}
+
+.gift-form input[type="text"],
+.gift-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+  
+  
+.card {
+    background-color: pink;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+  }
+  
+  
+  .card h2 {
+    font-size: 24px;
+    font-family: 'Cursive', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  
+  .card p {
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 20px;
+  }
+
+  .form-container {
+    margin: 20px;
+}
+.form-field {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+#wishes {
+    margin-top: 20px;
+}
+.wish-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.story-item {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background:none;
+    margin-right:20px;
+}
+
+.story-item img {
+    max-width: 170px;
+    max-height: 130px;
+    object-fit: cover;
+    border-radius: 10px; 
+    background:none;
+    margin-top:300px;
+   
+}
+
+#nav {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: 5vh;
+        width: 100%;
+    }
+    
+    #nav ul {
+        background-color: pink;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        border-radius: 10px;
+        
+    }
+    
+    #nav ul li {
+        display: inline-block;
+        margin: 0;
+        padding: 5px 10px;
+    }
+    
+    #nav ul li a {
+        color: #fff; 
+        text-decoration: none;
+        font-size: 18px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #nav ul li:hover {
+        background-color: #4379F2;
+        border-radius: 7px;
+    }
+    
+    #nav ul li a:hover {
+        color: white; 
+    }
+ .event-details-1 {
+    border: 3px solid #000; 
+    padding: 20px; 
+    margin: 10px; 
+    border-radius: 10px;
+  }
+
+  .event-details {
+    border: 3px solid #000; 
+    padding: 20px; 
+    margin: 10px; 
+    border-radius: 10px; 
+  }
+
+#content-story{
+    font-style: italic;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align:center;
+   
+    position:absolute;
+}
+#content-story h4{
+    font-style: italic;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align:center;
+    
+    
+}
+
+#ctrlmusik {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 10vh;
+    right: 5vw;
+  }
+
+  #imgmusik {
+    width: 50%;
+  }
+
+.qr-code{
+    width: 100px;
+    height: 100px;
+    
+    width: -200%;
+}
+
+table {
+    width: 2%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: pink;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: pink;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.elemen{
+  margin-top:100px; 
+  bottom: 30px;
+}
+
+.elemen-quotes{
+    width:40%;
+}
