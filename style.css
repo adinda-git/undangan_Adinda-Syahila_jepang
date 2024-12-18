@@ -55,9 +55,9 @@ html{
 
 #quotes blockquote {
     font-style: italic;
-    font-size: 1.1em;
+    font-size: 10em;
     margin-bottom: 20px;
-    
+   
 }
 
 
@@ -127,7 +127,7 @@ html{
     font-size: 24px;
     color: #333;
     position:relative;
-    top:20px;
+    top:10px;
     left:250px;
 }
 #tanggal-lokasi h3 {
@@ -144,7 +144,7 @@ html{
     display:block;
     padding:20px;
 }
-<-->footer<-->
+
 .event-details{
     margin-bottom:20px;
     display:block;
@@ -155,7 +155,7 @@ html{
 
 
 #gallery{
-    height: 250vh;
+    height: 150vh;
     background: url("img/bg7.png") no-repeat center center/cover;
    color: black;
 }
@@ -479,6 +479,7 @@ p {
     padding: 20px;
     border: 1px solid #888;
     width: 60%;
+    
     border-radius: 10px;
 }
 
