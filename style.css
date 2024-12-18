@@ -116,14 +116,19 @@ html{
     text-align: center;
     margin-bottom:300px;
     background:none;
+  
+
     
    
 }
 
 .Tanggal-text h1{
-    text-align: center;
-    margin-right:25px;
-     font-size: 25px; 
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    position:relative;
+    top:20px;
+    left:250px;
 }
 #tanggal-lokasi h3 {
     font-size: 1.5em;
@@ -137,20 +142,20 @@ html{
 .event-details-1{
     margin-bottom:20px;
     display:block;
-    padding:50px;
+    padding:20px;
 }
 
 .event-details{
     margin-bottom:20px;
     display:block;
-    padding:50px;
+    padding:20px;
 }
 
 
 
 
 #gallery{
-    height: 220vh;
+    height: 250vh;
     background: url("img/bg7.png") no-repeat center center/cover;
    color: black;
 }
@@ -202,13 +207,17 @@ html{
 
 .tamu-text{
     text-align: center;
-    margin-right:25px;
-     font-size: 25px;     
+    margin-bottom:400px;
+    background:none;
+    position:absolute; 
     
 }
 
+#tamu-khusus table{
+    margin-top:80px;
+}
 
- 
+
 .pengantin{
     background-color:transparent;
     background:none;
@@ -643,6 +652,7 @@ p {
      font-size: 25px; 
      margin-bottom:20px;
     margin-top:100px;
+
 }
 
 #content-story p{
