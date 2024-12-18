@@ -51,13 +51,13 @@ html{
     color: white;
     text-align: center;
     overflow:hidden;
-    
 }
 
 #quotes blockquote {
     font-style: italic;
     font-size: 1.1em;
     margin-bottom: 20px;
+    
 }
 
 
@@ -116,15 +116,15 @@ html{
     text-align: center;
     margin-bottom:300px;
     background:none;
-    position:absolute;
+    
+   
 }
 
 .Tanggal-text h1{
-    margin: 0;
-    font-size: 24px;
-    color: #333;
+    text-align: center;
+    margin-right:25px;
+     font-size: 25px; 
 }
-
 #tanggal-lokasi h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
@@ -202,9 +202,8 @@ html{
 
 .tamu-text{
     text-align: center;
-    margin-bottom:400px;
-    background:none;
-    position:absolute; 
+    margin-right:25px;
+     font-size: 25px;     
     
 }
 
@@ -249,15 +248,14 @@ html{
  #story{
     height: 100vh;
     background: url("img/bg4.png") no-repeat center center/cover;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    text-align: center;
+   color: black;
+}
+
+.content-item img {
+    width: 200px;
+    margin: 10px;
     
-    
- }
+}
 
  #kirim-hadiah{
     height: 100vh;
@@ -636,21 +634,26 @@ p {
   }
 
 #content-story{
-    font-style: italic;
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
    
-    position:absolute;
 }
 #content-story h4{
-    font-style: italic;
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    text-align:center;
-    
+    text-align: center;
+    margin-right:25px;
+     font-size: 25px; 
     
 }
+
+#content-story p{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
 
 #ctrlmusik {
     width: 100px;
@@ -658,12 +661,13 @@ p {
     position: fixed;
     bottom: 10vh;
     right: 5vw;
-  }
+    display: none; /* Sembunyikan gambar musik pada awal */
+    transition: bottom 0.3s ease-in-out;
+}
 
-  #imgmusik {
+#imgmusik {
     width: 50%;
-  }
-
+}
 .qr-code{
     width: 100px;
     height: 100px;
@@ -698,11 +702,10 @@ tr:hover {
     background-color: #ddd;
 }
 
-.elemen{
-  margin-top:100px; 
-  bottom: 30px;
-}
+
 
 .elemen-quotes{
     width:40%;
+   
+    
 }
