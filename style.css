@@ -251,11 +251,8 @@ html{
    color: black;
 }
 
-.content-item img {
-    width: 200px;
-    margin: 10px;
-    
-}
+
+
 
  #kirim-hadiah{
     height: 100vh;
@@ -575,7 +572,7 @@ p {
     object-fit: cover;
     border-radius: 10px; 
     background:none;
-    margin-top:300px;
+    margin-top:100px;
    
 }
 
@@ -644,13 +641,15 @@ p {
     text-align: center;
     margin-right:25px;
      font-size: 25px; 
-    
+     margin-bottom:20px;
+    margin-top:100px;
 }
 
 #content-story p{
     margin-top: 20px;
     font-size: 18px;
     text-align: center;
+    margin-bottom:100px;
     
 }
 
