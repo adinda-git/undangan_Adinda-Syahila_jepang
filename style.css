@@ -57,7 +57,7 @@ html{
     font-style: italic;
     font-size: 10em;
     margin-bottom: 20px;
-   
+    margin-top:40%;
 }
 
 
@@ -715,7 +715,8 @@ tr:hover {
 
 
 .elemen-quotes{
-    width:40%;
-   
-    
+    max-width: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background:none;
 }
